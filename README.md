@@ -44,11 +44,12 @@ WorkingDirectory=/www/wwwroot/gh.jiasu.in
 [Install]
 WantedBy=multi-user.target
 ```
-设置开机自启：```systemctl enable ghproxy.service```
 
 启动：```systemctl start ghproxy.service```
 
 重启：```systemctl restart ghproxy.service```
+
+设置开机自启：```systemctl enable ghproxy.service```
 
 查询运行状态：```systemctl status ghproxy.service```
 
